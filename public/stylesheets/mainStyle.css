@@ -1,0 +1,548 @@
+.contentContainer {
+  background-color: #FFF;
+
+}
+
+
+.email {
+  color: #009688;
+}
+
+.socialMediaLinks {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.social {
+  font-size: 40px;
+  color: #333;
+  margin: 0 15px;
+}
+
+.social:hover {
+  color: #009688;
+}
+
+.cardStyle {
+  background-color: #FFF;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-top: 550px;
+  padding: 50px 50px 0 50px;
+  margin-bottom: 25px;
+}
+
+.headerContainer {
+  margin-top: 8.3333%;
+  margin-bottom: 30px;
+}
+
+.descContainer {
+  margin-bottom: 30px;
+}
+
+.headerSidebars {
+  margin-top: 17%;
+  border-bottom: 2px solid #CCC;
+}
+
+.img-holder {
+  padding-bottom: 50px;
+}
+
+.headerText {
+  border-bottom: 3px solid #CCC;
+  font-family: josefin-sans, sans-serif;
+  font-size: 75px;
+  margin-top: 30px;
+}
+
+.desc{
+  font-family: muli, sans-serif;
+  font-size: 30px;
+  padding: 40px 20px 0;
+  border-top: 2px solid #AAA;
+  margin-top: 0;
+
+}
+
+/** Education */
+.eduCardStyle {
+  background-color: #FFF;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-top: 550px;
+  padding: 50px;
+  margin-bottom: 25px;
+}
+
+.header {
+  border-bottom: 3px solid #CCC;
+  font-family: josefin-sans, sans-serif;
+  font-size: 75px;
+  margin-top: 30px;
+}
+
+.school {
+  padding-top: 30px;
+  font-family: muli, sans-serif;
+  font-size: 30px;
+  border-top: 2px solid #AAA;
+}
+
+.kingsBorder {
+  border: 2px solid yellow;
+  border-radius: 50px;
+  width: auto;
+  display: inline-block;
+}
+
+.kingsImg {
+  margin: 0 auto;
+  padding: 20px;
+  width: 100px;
+}
+
+.subHeader {
+  border-bottom: 3px solid #CCC;
+  font-family: josefin-sans, sans-serif;
+  font-size: 50px;
+  margin-top: 30px;
+}
+
+.highlightedProjects {
+  margin: 0 20px 50px;
+  padding-top: 30px;
+  font-family: muli, sans-serif;
+  font-size: 25px;
+}
+
+.rowStyle {
+  margin: 10px;
+}
+
+.projectDescription {
+    margin-top: 5px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+/** Work */
+
+.glyphicon-send{
+  margin-top: 22%;
+  margin-right: 10%;
+}
+
+.glyphicon-fire{
+  margin-top: 22%;
+  margin-right: 3%;
+}
+
+.glyphicon-star{
+  margin-top: 22%;
+  margin-left: 5%;
+}
+
+.glyphicon-tint{
+  margin-top: 22%;
+  margin-left: 5%;
+}
+
+.glyphicon-book{
+  margin-top: 22%;
+  margin-right: 5%;
+}
+
+.workRow {
+  margin-top: 525px;
+}
+
+.workCardContainer {
+  margin: 0 auto;
+  max-width: 450px;
+  z-index: 1;
+  position: relative;
+}
+
+.workCardIcon {
+  background-color: #FFF;
+  height: 150px;
+  width: 150px;
+  border-radius: 150px;
+  margin: 0 auto;
+  border: 3px solid #009688;
+  z-index: 3;
+  position: relative;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  text-align: center;
+  vertical-align: middle;
+}
+
+.workGlyph {
+  font-size: 75px;
+  vertical-align: middle;
+}
+
+.workCardIcon::before {
+  position: absolute;
+  content: '';
+  width: 150px;
+  height: 75px;
+  bottom: -3px;
+  left: -3px;
+  box-shadow: 8px 8px 0px #FFF, -8px 8px 0px #FFF, 8px 0px 0px #FFF, -8px 0px 0px #FFF;
+  border-bottom-left-radius: 100px;
+  border-bottom-right-radius: 100px;
+  z-index: 2;
+}
+
+.workCard {
+  background-color: #FFF;
+  height: 297px;
+  position: relative;
+  top: -75px;
+  z-index: 2;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  padding: 60px;
+}
+
+.compName {
+  margin-top: 25px;
+  font-size: 35px;
+  font-family: josefin-sans, sans-serif;
+  padding-bottom: 10px;
+  border-bottom: 3px solid #CCC;
+}
+
+.compDesc {
+  padding-top: 15px;
+  font-family: josefin-sans, sans-serif;
+  border-top: 2px solid #AAA;
+  font-size: 25px;
+}
+
+.compDesc > ul > li {
+  padding-bottom: 10px;
+}
+
+
+
+@media (max-width: 1000px) {
+  .workRow {
+    margin-left: auto;
+  }
+}
+
+/** Photography */
+
+.photoRow {
+  margin-top: 550px;
+}
+
+.photoCardStyle {
+  background-color: #FFF;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+  margin-bottom: 25px;
+  padding-bottom: 35px;
+}
+
+.headerTextPhoto {
+  font-family: josefin-sans, sans-serif;
+  font-size: 75px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.imageLabel{
+  font-family: muli, sans-serif;
+  font-size: 60px;
+  margin:15px auto;
+  text-align: center;
+
+}
+
+.image {
+  margin: 0 -15px;
+  height: 450px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center 0;
+}
+
+#nature {
+  background-image: url("/images/Fall1.jpg");
+}
+
+#cars {
+  background-image: url("/images/whitebmw.jpg");
+}
+
+#industrial {
+  background-image: url("/images/train10.jpg");
+}
+
+#portrait {
+  background-image: url("/images/lake.jpg");
+}
+
+#digital {
+  background-image: url("/images/rose-lg.png");
+}
+
+@media screen and (max-width: 1200px) {
+  .image{
+      height: 350px;
+  }
+
+  .workCard {
+    height: auto;
+  }
+
+}
+
+@media screen and (max-width: 990px) {
+  .image{
+      height: 300px;
+  }
+
+}
+
+@media screen and (max-width: 760px) {
+  .image{
+      height: 325px;
+      background-position: center;
+  }
+
+}
+
+@media screen and (max-width: 500px) {
+  .image{
+      height: 200px;
+  }
+
+}
+
+
+@media screen and (max-width: 850px) {
+
+  .cardStyle {
+    margin-top: 55%;
+  }
+
+  .eduCardStyle {
+    margin-top: 55%;
+  }
+
+  .workRow {
+    margin-top: 55%;
+  }
+
+  .photoRow {
+    margin-top: 55%;
+  }
+
+}
+
+@media screen and (max-width: 700px) {
+  .smallest {
+    width: 100%;
+  }
+
+  .year{
+    font-size: 27px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 10px;
+  }
+}
+
+@media (max-width: 766px) and (min-width: 350px) {
+  .col-xs-3 {
+    width: 29.16666667%;
+  }
+}
+
+@media (max-width: 550px) {
+
+  .headerTextPhoto {
+    font-size: 48px;
+  }
+
+  .imageLabel {
+    font-size: 42px;
+  }
+
+  .workCardContainer{
+    padding-right: 10px;
+  }
+
+  .headerContainer {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .headerText  {
+    font-size: 70px;
+    font-family: josefin-sans, sans-serif;
+    margin-top: 0;
+  }
+
+  .desc{
+    font-family: muli, sans-serif;
+    font-size: 25px;
+    padding: 40px 20px 0;
+    border-top: 2px solid #AAA;
+    margin-top: 0;
+
+  }
+
+  .img-holder {
+    padding-bottom: 30px;
+  }
+
+  .descContainer {
+    width: 100%;
+    padding: 0;
+  }
+
+  .header {
+    font-size: 60px;
+    font-family: josefin-sans, sans-serif;
+    margin-top: 0;
+  }
+
+  .subHeader {
+    font-size: 35px;
+  }
+
+  .school {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .smallest {
+    width: 100%;
+  }
+
+  .highlightedProjects {
+    margin: 0;
+
+  }
+
+  .year{
+    font-size: 27px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 10px;
+  }
+
+  .top-smallest {
+    width: 100%;
+  }
+}
+
+
+@media (max-width: 450px) {
+
+  .workRow {
+    margin-top: 65%;
+  }
+
+  .compDesc {
+    font-size: 24px;
+  }
+
+  .social {
+    font-size: 30px;
+    margin-right: 20px;
+  }
+
+
+  .headerText  {
+    font-size: 55px;
+  }
+
+  .desc{
+    font-size: 20px;
+
+  }
+
+  .img-holder {
+    padding-bottom: 30px;
+  }
+
+  .cardStyle {
+    margin-top: 60%;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
+  .photoRow {
+    margin-top: 60%;
+  }
+
+  .subHeader {
+    font-size: 30px;
+  }
+
+  .header{
+    font-size: 40px;
+  }
+
+  .eduCardStyle {
+    margin-top: 60%;
+    padding-top: 30px;
+    padding-bottom: 5px;
+  }
+
+  .school {
+    font-size: 18px;
+  }
+
+  .kingsImg {
+    width: 85px;
+  }
+
+  .year {
+     font-size: 25px;
+  }
+
+  .highlightedProjects {
+    font-size: 20px;
+  }
+
+  .rowStyle {
+    margin-bottom: 20px;
+  }
+
+}
+
+@media screen and (max-width: 400px) {
+  .year {
+    text-align: center;
+  }
+
+  .title {
+    text-align: center;
+    display: block;
+    margin-bottom: 10px;
+  }
+  .projectDescription {
+    font-size: 17px;
+    margin: 0 -25px;
+    text-align: center;
+  }
+
+  .compDesc > ul {
+    margin-left: -15px;
+    font-size: 18px
+  }
+
+  .workCard {
+    padding: 60px 40px 40px;
+  }
+}
+
+@media (max-width: 350px) {
+  .col-xs-5 {
+    width: 50%;
+  }
+}
