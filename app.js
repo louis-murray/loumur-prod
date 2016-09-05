@@ -27,8 +27,7 @@ app.use('/about', routes);
 app.use('/users', users);
 
 // !Important
-app.set('port', process.env.PORT || 8888);
-app.set('host', process.env.PRIVATE_IP || 'localhost');
+app.set('port', process.env.PORT || 80);
 /*
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
